@@ -173,7 +173,10 @@ namespace Tyuiu.GornovTA.Sprint6.Task1.V1
             this.Controls.Add(this.labelMedium1_GTA);
             this.Controls.Add(this.labelStart1_GTA);
             this.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "FormMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Спринт 6 | Таск 1 | Вариант 1 | Горнов Т.А.";
             this.ResumeLayout(false);
             this.PerformLayout();
